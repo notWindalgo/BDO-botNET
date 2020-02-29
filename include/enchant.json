@@ -1,0 +1,166 @@
+{
+  "smash":{
+    "green":[
+  		{
+  			"base": 0.30,
+  			"baseFail": 0.03,
+  			"softFail": 0.006,
+  			"softCap": 14
+  		},
+  		{
+  			"base": 0.1,
+  			"baseFail": 0.01,
+  			"softFail": 0.002,
+  			"softCap": 40
+  		},
+  		{
+  			"base": 0.075,
+  			"baseFail": 0.0075,
+  			"softFail": 0.0015,
+  			"softCap": 44
+  		},
+  		{
+  			"base": 0.025,
+  			"baseFail": 0.0025,
+  			"softFail": 0.0005,
+  			"softCap": 110
+  		},
+  		{
+  			"base": 0.005,
+  			"baseFail": 0.0005,
+  			"softFail": 0.0005,
+  			"softCap": 120
+  		}
+    ],
+    "gold":[
+  		{
+  			"base": 0.25,
+  			"baseFail": 0.025,
+  			"softFail": 0.005,
+  			"softCap": 18
+  		},
+  		{
+  			"base": 0.1,
+  			"baseFail": 0.01,
+  			"softFail": 0.002,
+  			"softCap": 40
+  		},
+  		{
+  			"base": 0.075,
+  			"baseFail": 0.0075,
+  			"softFail": 0.0015,
+  			"softCap": 44
+  		},
+  		{
+  			"base": 0.025,
+  			"baseFail": 0.0025,
+  			"softFail": 0.0005,
+  			"softCap": 110
+  		},
+  		{
+  			"base": 0.005,
+  			"baseFail": 0.0005,
+  			"softFail": 0.0005,
+  			"softCap": 120
+  		}
+    ],
+    "lifeskill":[
+  		{
+  			"base": 0.30,
+  			"baseFail": 0.03,
+  			"softFail": 0.006,
+  			"softCap": 14
+  		},
+  		{
+  			"base": 0.1,
+  			"baseFail": 0.01,
+  			"softFail": 0.002,
+  			"softCap": 40
+  		},
+  		{
+  			"base": 0.075,
+  			"baseFail": 0.0075,
+  			"softFail": 0.0015,
+  			"softCap": 44
+  		},
+  		{
+  			"base": 0.025,
+  			"baseFail": 0.0025,
+  			"softFail": 0.0005,
+  			"softCap": 110
+  		},
+  		{
+  			"base": 0.005,
+  			"baseFail": 0.0005,
+  			"softFail": 0.0005,
+  			"softCap": 120
+  		}
+    ]
+  },
+  "resource":{
+    "gold":[
+  		{
+  			"base": 0.1176,
+  			"baseFail": 0.01176,
+  			"softFail": 0.00235,
+  			"softCap": 50
+  		},
+  		{
+  			"base": 0.0769,
+  			"baseFail": 0.00769,
+  			"softFail": 0.00153,
+  			"softCap": 82
+  		},
+  		{
+  			"base": 0.0625,
+  			"baseFail": 0.00625,
+  			"softFail": 0.00153,
+  			"softCap": 82
+  		},
+  		{
+  			"base": 0.02,
+  			"baseFail": 0.002,
+  			"softFail": 0.002,
+  			"softCap": 120
+  		},
+  		{
+  			"base": 0.003,
+  			"baseFail": 0.0003,
+  			"softFail": 0.0003,
+  			"softCap": 120
+  		}
+    ],
+    "orange":[
+      {
+  			"base": 0.1308,
+  			"baseFail": 0.01176,
+  			"softFail": 0.00235,
+  			"softCap": 50
+  		},
+  		{
+  			"base": 0.1063,
+  			"baseFail": 0.00769,
+  			"softFail": 0.00153,
+  			"softCap": 82
+  		},
+  		{
+  			"base": 0.034,
+  			"baseFail": 0.0034,
+  			"softFail": 0.0034,
+  			"softCap": 120
+  		},
+  		{
+  			"base": 0.0051,
+  			"baseFail": 0.0005,
+  			"softFail": 0.0005,
+  			"softCap": 120
+  		},
+  		{
+  			"base": 0.002,
+  			"baseFail": 0.0003,
+  			"softFail": 0.0003,
+  			"softCap": 120
+  		}
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+	"initialize": [
+		"Initializing Setup",
+		"Initializing Setup.",
+		"Initializing Setup..",
+		"Initializing Setup...",
+		"Initializing Complete"
+		],
+
+	"welcome": "Welcome to BDO botNET setup. In order to use BDO botNET, I will need some basic information about your guild and server. For detailed instructions and prerequisite setup please refer to: `[insert github link]`.\nHave you followed the prerequisite setup and are you ready to continue? [y/n]",
+
+	"guildName": [
+		"Please provide the name of your guild:\nᴸᵉᵗᵗᵉʳˢ ⁿᵘᵐᵇᵉʳˢ ᵃⁿᵈ ᵘⁿᵈᵉʳˢᶜᵒʳᵉˢ ᵃˡˡᵒʷᵉᵈ",
+		"Guild Name can not exceed 15 characters. Please try again:",
+		"Guild Name can only contain alphanumeric characters and underscores (A-Z 0-9 _). Please try again:"
+		],
+
+	"roleMaster": [
+		"Please provide the **Guild Master** tag:\nᴹᵉᵐᵇᵉʳˢ ʷᶦᵗʰ ᵗʰᶦˢ ᵗᵃᵍ ᶜᵃⁿ ᵉᵈᶦᵗ ᵇᵒᵗ ˢᵉᵗᵗᶦⁿᵍˢ",
+		"Please provide the **Guild Master** tag by mentioning (@) the role:\nʸᵒᵘ ᵐᵃʸ ⁿᵉᵉᵈ ᵗᵒ ᵘᵖᵈᵃᵗᵉ ʳᵒˡᵉ ᵖᵉʳᵐᶦˢˢᶦᵒⁿˢ",
+		"Provide **only** the **Guild Master** tag. Please try again:"
+	],
+
+	"roleOfficer": [
+		"Please provide the **Officer** tag:\nᴹᵉᵐᵇᵉʳˢ ʷᶦᵗʰ ᵗʰᶦˢ ᵗᵃᵍ ᶜᵃⁿ ᵘᵖᵈᵃᵗᵉ ⁿᵒᵈᵉ ʷᵃʳ ᶦⁿᶠᵒʳᵐᵃᵗᶦᵒⁿ",
+		"Please provide the **Guild Officer** tag by mentioning (@) the role:\nʸᵒᵘ ᵐᵃʸ ⁿᵉᵉᵈ ᵗᵒ ᵘᵖᵈᵃᵗᵉ ʳᵒˡᵉ ᵖᵉʳᵐᶦˢˢᶦᵒⁿˢ",
+		"Provide **only** the **Guild Officer** tag. Please try again:"
+	],
+
+	"roleMember": [
+		"Please provide the **Member** tag:\nᴹᵉᵐᵇᵉʳˢ ʷᶦᵗʰ ᵗʰᶦˢ ᵗᵃᵍ ᶜᵃⁿ ᵘˢᵉ ᵍᵉⁿᵉʳᵃˡ ᶜᵒᵐᵐᵃⁿᵈˢ",
+		"Please provide the **Guild Member** tag by mentioning (@) the role:\nʸᵒᵘ ᵐᵃʸ ⁿᵉᵉᵈ ᵗᵒ ᵘᵖᵈᵃᵗᵉ ʳᵒˡᵉ ᵖᵉʳᵐᶦˢˢᶦᵒⁿˢ",
+		"Provide **only** the **Guild Member** tag. Please try again:"
+	],
+
+	"roleVerified": [
+		"Please provide the **Verified** tag:\nᴹᵉᵐᵇᵉʳˢ ʷᶦᵗʰ ᵗʰᶦˢ ᵗᵃᵍ ʰᵃᵛᵉ ᵛᵉʳᶦᶠᶦᵉᵈ ᵗʰᵉᶦʳ ᶠᵃᵐᶦˡʸ ⁿᵃᵐᵉ",
+		"Please provide the **Verified** tag by mentioning (@) the role:\nʸᵒᵘ ᵐᵃʸ ⁿᵉᵉᵈ ᵗᵒ ᵘᵖᵈᵃᵗᵉ ʳᵒˡᵉ ᵖᵉʳᵐᶦˢˢᶦᵒⁿˢ",
+		"Provide **only** the **Verified** tag. Please try again:"
+	],
+
+	"channelAnnouncements": [
+		"Please provide the **Announcements** channel:\nᴺᵒᵈᵉ ʷᵃʳ ᵘᵖᵈᵃᵗᵉˢ ʷᶦˡˡ ᵇᵉ ᵖᵒˢᵗᵉᵈ ᵗᵒ ᵗʰᶦˢ ᶜʰᵃⁿⁿᵉˡ",
+		"Please provide the **Announcements** channel by mentioning (#) the channel:",
+		"Provide **only** the **Announcements** channel. Please try again:"
+	],
+
+	"channelCommands": [
+		"Please provide the channel for bot commands:\nᴵᵗ ᶦˢ ˢᵘᵍᵍᵉˢᵗᵉᵈ ʸᵒᵘ ᵘˢᵉ ʸᵒᵘʳ ⁿᵒʳᵐᵃˡ ᵍᵘᶦˡᵈ ᵈᶦˢᶜᵘˢˢᶦᵒⁿ ᶜʰᵃⁿⁿᵉˡ",
+		"Please provide a commands channel by mentioning (#) the channel:",
+		"Provide **only** one channel. Please try again:"
+	],
+
+	"attendanceType": [
+		"Please select how you would like node war attendance to be taken:\n```yaml\n[1] Voice Comms\n #  Active members in the specified voice comm channels will be counted for attendance.\n[2] Signup\n #  Members will react to the node war announcement message in order to signup.```",
+		"Please make a selection from the options below:\n```yaml\n[1] Voice Comms\n #  Active members in the specified voice comm channels will be counted for attendance.\n[2] Signup\n #  Members will react to the node war announcement message in order to signup.```"
+	],
+
+	"voiceChannels": [
+		"```yaml\n[1] Add current voice channel\n #  Join a voice channel to register it as a Node War comms channel\n[2] Finish\n #  Finalize your list of [{AMOUNT}] voice channels```",
+		"```yaml\n[1] Add current voice channel\n #  Join a voice channel to register it as a Node War comms channel\n[2] Finish\n #  Finalize your list of [{AMOUNT}] voice channels```\n**Please join a voice channel before using that command**",
+		"```yaml\n[1] Add current voice channel\n #  Join a voice channel to register it as a Node War comms channel\n[2] Finish\n #  Finalize your list of [{AMOUNT}] voice channels```\n**You must add at least 1 voice channel before proceeding**",
+		"Please make a selection from the options below:\n```yaml\n[1] Add current voice channel\n #  Join a voice channel to register it as a Node War comms channel\n[2] Finish\n #  Finalize your list of [{AMOUNT}] voice channels```"
+	],
+
+	"payoutWeight": [
+		"Please select how you would like to weight payouts:\n```yaml\n[1] Balanced\n #  Both NW and SMH will be used for payouts.\n[2] Node Wars only\n #  Only node war participation will be used for payouts\n[3] Sea Monsters only\n #  Only Sea Monster contributions will be used for payouts```"
+	],
+
+	"success": [
+		"Your changes have been saved.",
+		"Setup process complete."
+	],
+
+	"error": [
+		"Setup process has been aborted.",
+		"Setup process has been aborted due to time out or error.",
+		"This discord has already started or has completed the BDO botNET setup process. If you would like to change your configuration and options, use the `!options` command."
+	],
+
+
+	"optionsMain":[
+		"```yaml\n[1] Guild Logs\n #  View / Update node war results and sea monster hauls for the guild\n[2] Audit\n #  View / Remove node war attendance or sea monster hauls for specific members\n[3] Payout\n #  Generate a payout list\n[4] Send Reminders\n #  Remind guild members to verify their family names and to update their stats\n[5] Setup\n #  Change guild name, roles, channels, and attendance / payout type\n\n[0] Cancel\n #  Exit without making changes```"
+	],
+
+	"optionsGuildLog":[
+		"```yaml\n[1] Node Wars\n #  View and edit Node War results\n[2] Sea Monsters\n #  View Sea Monster hauls\n\n[0] Cancel\n #  Exit without making changes```",
+		"Please select a Family Name or Discord @"
+	],
+
+	"optionsAudit":[
+		"Please enter a Family Name or Discord @:",
+		"```yaml\n #  Family Name: {FAMILYNAME}\n[1] Node Wars\n #  View / remove recent node war records\n[2] Sea Monsters\n #  View / remove recent sea monster hauls\n\n[0] Cancel\n #  Exit without making changes```"
+	],
+
+	"optionsSetup":[
+		"```yaml\n[1] Guild Name\n #  Name of your guild\n[2] Discord Roles\n #  Recognized discord roles (GM/Officer/Member/Verified)\n[3] Discord Channels\n #  Channels for announcements and commands\n[4] Attendance Type\n #  Voice comm attendance or Signup attendance\n[5] Payout Weight\n #  Payouts weighted towards node wars, sea monsters, or an even split\n\n[0] Cancel\n #  Exit without making changes```"
+	],
+
+	"optionsRoles":[
+		"```yaml\n[1] Guild Master\n #  Able to edit bot settings\n[2] Officer\n #  Able to update node war information and take attendance\n[3] Member\n #  Able to use general commands\n[4] Verified\n #  Have verified their family name\n\n[0] Cancel\n #  Exit without making changes```"
+	],
+
+	"optionsChannels":[
+		"```yaml\n[1] Announcements\n #  The channel node war updates will be posted to\n[2] Commands\n #  The channel bot commands can be used in\n\n[0] Cancel\n #  Exit without making changes```"
+	],
+
+	"optionsError":[
+		"This discord has not completed the !setup process.",
+		"Option selection has been canceled.",
+		"Option selection has timed out."
+	],
+
+	"permission":[
+		"You do not have permission to use this command",
+		"Error. You have not given proper permissions for this channel.",
+		"Error. You have not given proper permissions for the announcements channel."
+	],
+
+
+	"verify":[
+		"The family name `{NAME}` has been added to the database",
+		"Your family name has been updated to `{NAME}`",
+		"Please provide your **family name**.\nExample: `!verify Dinkusa`",
+		"Family name is too long"
+	],
+
+	"stats":[
+		"Information has been updated for `{NAME}`",
+		"Please !verify your family name before attempting to update information.",
+		"A class name is required.\nExample: `!stats Valk 253 256 304`",
+		"Please provide valid stats.",
+		"Please provide a valid class",
+		"Please provide your **class**, **AP**, **AAP**, and **DP**.\nExample: `!stats Valk 253 256 304`"
+	],
+
+	"seaLoot":[
+		"Recording a haul of `{AMOUNT}` by `{NAME}`. Please upload an image of your haul to confirm:",
+		"Please use this command to self-report sea monster hauls.\nFormat: `!loot [total amount of silver]`",
+		"Image not recognized, report canceled. Upload your image directly to discord or post a direct link to an image.",
+		"Sea Monster haul report timed out.",
+		"Successfully recorded a haul of `{AMOUNT}` by `{NAME}`."
+	],
+
+	"nodeWar":[
+		"```yaml\n[1] Place new fort\n #  Clear current information and place a new fort\n[2] Enemy count\n #  Update number of enemies on current node\n[3] Result\n #  Report a win or a loss for node war\n\n[0] Cancel\n #  Exit without making changes```",
+		"\nYou are currently placed in `{REGION}` on a `T{TIER}` node. There are `{ENEMIES}` enemies placed.",
+		"```yaml\n #  Please select a node war region\n[1] Balenos\n[2] Serendia\n[3] Calpheon\n[4] Mediah\n[5] Valencia\n\n[0]Cancel\n # Exit without making changes```",
+		"```yaml\n #  Please select a node war tier\n[1] T1\n[2] T2\n[3] T3\n[4] T4\n[5] Region\n\n[0]Cancel\n # Exit without making changes```",
+		"Please report how many enemies are on your node:",
+		"```yaml\n #  Please report the result of your node war\n[1] Win\n[2] Lose\n\n[0] Cancel\n #  Exit without reporting```"
+	],
+
+	"nodeError":[
+		"Node War reporting has timed out.",
+		"Node War reporting has been canceled.",
+		"Error. Enemy count must be a valid number.",
+		"Error. Can not report enemies when no fort is placed.",
+		"Error. Can not report result when there are no enemies",
+		"Error. There are no members using the node war voice comms.",
+		"Error. There are no members who have signed up."
+	],
+
+	"nodeSuccess":[
+		"{NAME}'s fort has been placed in `{REGION}` on a `T{TIER}` node. There are currently `{ENEMIES}` enemies placed.",
+		"Attendance has been taken. `{MEMBERS}` members attended tonight, resulting in a `{RESULT}`"
+	],
+
+	"nodeAlerts":[
+		"⚠️ @everyone Our fort has been placed on a `{REGION}` region node.",
+		"⚠️ @everyone Our fort has been placed on a `{REGION}` region node.\n✅:`Attending Node War`   ⛔:`Can not attend`",
+		"‼️ @everyone We have a confirmed fight for Node War tonight. Please show up on `{REGION} 1` ahead of time.",
+		"🕗 @everyone Node War is in `1 hour`. Please begin moving to `{REGION} 1` and starting your food rotations.",
+		":clock830: @everyone Node War is in `30 minutes`. Please begin joining voice chat and forming parties on `{REGION} 1`.",
+		"🚨 @everyone **FINAL WARNING** War begins in `5 minutes` on `{REGION} 1`."
+	],
+
+	"payoutError":[
+		"Error. No users found with the member role"
+	],
+
+	"checkError":[
+		"Error. No users found with the member role",
+		"Error. `{USERNAME}` does not have the member role {DISCORDCREATED}",
+		"Error. `{USERNAME}` not found in database {DISCORDCREATED}",
+		"Please include a member's family name or discord @",
+		"Error. No users online with the member role",
+		"Error. No data found"
+	],
+
+	"auditFooter":[
+		"Select the key of a node war you would like to edit",
+		"Select the key of the member you would like to remove",
+		"\n`[0] | Cancel without changes`",
+		"Select the key of a sea haul you would like to remove",
+		"Select the key of a node war you would like to remove"
+	],
+
+	"auditGuildNode":[
+		"```yaml\n #  ID: {NODEID} | {DATE} | Attendance: {ATTENDANCE}\n[1] View Attendance\n #  View a list of members who attended selected node war\n[2] Remove node war record\n #  Purge the selected node war from record\n[3] Change Region\n #  Current region: {REGION}\n[4] Change Tier\n #  Current tier: T{TIER}\n[5] Change Enemy Count\n #  Current enemy count: {ENEMIES}\n[6] Change Result\n #  Current Result: {RESULT}\n\n[0] Cancel\n #  Exit without making changes```",
+		"Are you sure you wish to remove `{FAMILYNAME}` from Node War `{NODEID}`: [y/n]",
+		"Are you sure you wish remove Node War `{NODEID}`: [y/n]",
+		"The selected node war has been purged from the records.",
+		"The selected node war has been updated."
+	],
+
+	"auditGuildSea":[
+		"Are you sure you wish to remove sea haul `{SEAID}` by `{FAMILYNAME}`: [y/n]",
+		"The selected sea haul has been purged from the records."
+	],
+
+	"auditPlayerNode":[
+		"Are you sure you wish to remove `{FAMILYNAME}` from Node War `{NODEID}`: [y/n]"
+	],
+
+	"auditPlayerSea":[
+		"Are you sure you wish to remove sea haul `{SEAID}` by `{FAMILYNAME}`: [y/n]"
+	],
+
+	"auditPlayerError":[
+		"Error. `{USERNAME}` not found in database",
+		"Please include a member's family name or discord @",
+		"Error. No node wars on record for `{FAMILYNAME}`",
+		"Error. No sea hauls on record for `{FAMILYNAME}`"
+	],
+
+	"auditError":[
+		"Error. No node wars have been recorded.",
+		"Editing has been canceled",
+		"Editing has timed out",
+		"Error. No sea hauls have been recorded."
+	],
+
+	"reminder":[
+		"All members are verified and up-to-date!",
+		"{COUNT} members have not verified.",
+		"{COUNT} members have not updated in the past 60 days.",
+		"You have not yet verified your Family Name for `{GUILDNAME}`. Please use the !verify command in the guild's discord.",
+		"You have not updated your stats in the past 60 days for `{GUILDNAME}`. Please use the !stats command in the guild's discord."
+	],
+
+	"market":[
+		"Please include an item name to search.",
+		"Error. No results found.",
+		"Item search has been canceled.",
+		"```yaml\n    {ITEMNAME}\n[1] Market Watch\n #  Set various alerts for market items\n[2] View Market Info\n #  Displays listings and prices for an item\n[3] View Enchant Info\n #  Displays enchant rates and average costs\n\n[0] Exit\n #  Cancel without viewing information```",
+		"Please provide your desired failstacks.\nExample: `10 20 35 45 90`",
+		"Error. Improper failstacks provided, please use numbers only.",
+		"```yaml\n    {ITEMNAME}\n[1] Market Watch\n #  Set various alerts for market items\n[2] View Market Info\n #  Displays listings and prices for an item\n\n[0] Exit\n #  Cancel without viewing information```",
+		"Error. The market API is currently unresponsive. Please try again later."
+	],
+
+	"marketFooter":[
+		"\n`[0] | Cancel without choosing`",
+		"Select the key of the item you would like to view",
+		"\n`[<] | Previous Page`",
+		"\n`[>] | Next Page`",
+		"Failstacks used: {FAILSTRACKS} || Positive numbers are lost profits for enchanting"
+	],
+
+	"marketAlert":[
+		"**Alert**: The average price for {ITEM} is currently {PRICE}.",
+		"**Alert**: The average prise for {ITEM} is currently {PERCENT}% of the 24hr average.",
+		"**Alert**: There are currently {LISTED} listings for {ITEM} below {PRICE}.",
+		"**Alert**: There have been {AMOUNT} sales for {ITEM} since {DATE}.",
+		"**Alert**: There are currently {LISTED} listings for {ITEM}."
+	],
+
+	"marketWatch":[
+		"```yaml\n    Please select enchant grade\n[1] {1}\n[2] {2}\n[3] {3}\n[4] {4}\n[5] {5}\n[6] {6}\n\n[0] Exit\n #  Cancel without setting an alert\n```",
+		"```yaml\n    Market Watch™\n[1] Price Threshold\n #  Set an alert for an item raising above or falling below a threshold\n[2] Price Change\n #  Be alerted when the average price of an item changes\n[3] Listed Price\n #  Be alerted when an item is listed below a threshold\n[4] Flood Alert\n #  Set an alert when total listings raise above or fall below a threshold\n[5] Sold Count\n #  Be alerted when a set amount of items have sold\n\n[0] Exit\n #  Cancel without setting an alert\n```",
+		"```yaml\n    Please select the threshold mode\n[1] Above\n #  Be alerted when price or item count rises above your threshold\n[2] Below\n #  Be alerted when price or item count falls below your threshold\n\n[0] Exit\n #  Cancel without setting an alert\n```",
+		"Please input your threshold:",
+		"Success! Alert added for `{ITEM}`",
+		"Error. Not a valid number.",
+		"Error. You have exceeded the maximum amount of watched items. Use the `!list` command to remove items."
+	],
+
+	"marketWatchList":[
+		"You do not currently have any items watched. Use `!search` to mark items to watch.",
+		"Market List closed without changes.",
+		"Successfully removed item from Watch List."
+	],
+
+	"help":[
+		"```yaml\n    H E L P!!\n!options\n  # GM Only\n  # Provides a list of options to view logs, generate payout lists, and update managment settings\n!node\n  # Officer Only\n  # Provides a list of options to set node war locations, update enemy counts, and report the result of node wars\n!verify\n  # Updates your family name\n!stats\n  # Updates your class (optional) and AP/AAP/DP\n!loot\n  # Self-reports profits from a sea monster haul\n!check\n  # Check the stats of a guild member\n!search\n  # Searches the market for an item\n  # Can be used to set various market alerts, check market prices, and check enchant rates / profits\n!list\n  # View / Edit your current market watch list\n```"
+	]
+}

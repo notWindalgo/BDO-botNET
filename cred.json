@@ -1,0 +1,21 @@
+{
+	"token": "",
+	"sql": {"host": "",
+		"user": "",
+		"password": "",
+		"database": ""
+	},
+	"market": {"host": "",
+		"agent": "",
+		"content": "",
+		"cookie": "",
+		"itemInfoCookie": "",
+		"searchURI": "",
+		"searchBody": "",
+		"marketURI": "",
+		"marketBody": "",
+		"itemInfoURI": "",
+		"itemInfoBody": ""
+	},
+	"maxWatch": 6
+}
