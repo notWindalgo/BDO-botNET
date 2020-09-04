@@ -58,6 +58,9 @@ Customizable and easy to set up. All the setup required is done within your disc
 
 
 ## FAQ
+### Will you add boss/imperial/igt timers and alerts?
+No. I feel the two main functions of botNET (guild management / market monitoring) are necessary, as they don't have any comparable utilities. I have no intention of attempting to create a directionless catch-all, nor do I want to tread ground that is already better covered by the BDO Boss discord bot, the horse trainer discord bot, or SomethingLovely.
+
 ### Will this be used to harvest data?
 While possible, the data isn't structured in a way that makes spying or harvesting intuitive without a separate method to parse information.
 Here is how I see the data if I wish to view it: [Link 1](https://i.imgur.com/fSXkDBN.png) [Link 2](https://i.imgur.com/bw9rkvP.png)
