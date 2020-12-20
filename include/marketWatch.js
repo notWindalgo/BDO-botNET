@@ -46,6 +46,9 @@ function soldCheck(watchList, item, bot, t){
       }
       var result = JSON.parse(body);
       var market = result;
+      if(!market.detailList){
+        return;
+      }
       for(grade in watchList[item]){
         search(watchList, item, grade, market, bot);
       }
