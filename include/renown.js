@@ -366,6 +366,14 @@ function renownClassName(statsClass){
     case statsClass.includes("guard"):
       var statsClassFull = "Guardian";
       break;
+
+    case statsClass.includes("hash"):
+      var statsClassFull = "Hashashin";
+      break;
+
+    case statsClass.includes("nova"):
+      var statsClassFull = "Nova";
+      break;
   }
   return statsClassFull;
 }
@@ -447,6 +455,14 @@ function renownClassIcon(statClass){
 
     case("Guardian"):
       var statClassIcon = "https://i.imgur.com/tmz1D1o.png";
+      break;
+
+    case("Hashashin"):
+      var statClassIcon = "https://i.imgur.com/T9ke7yD.png";
+      break;
+
+    case("Nova"):
+      var statClassIcon = "https://i.imgur.com/c73z9Ti.png";
       break;
   }
   return statClassIcon;
