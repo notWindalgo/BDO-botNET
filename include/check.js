@@ -270,28 +270,43 @@ function guild(message, guilds, Discord){
           if(totalIncome > 1000000000){
             totalIncomeSh = ((totalIncome/1000000000).toFixed(3) + "b");
           }
-          embed = new Discord.RichEmbed()
-            .setAuthor("BDO botNET", "https://i.imgur.com/UmhMghb.png")
-            .setTitle("Viewing information for " + guilds[message.guild.id].guildName)
-            .setDescription(fullOnlineList.length + " of " + fullGuildList.length + " members are online")
-            .setColor(0x00247d)
-            .addField("Average Gear Score", Math.round(averageGS), true)
-            .addField("Online Gear Score", Math.round(onlineGS), true)
-            .addField("Highest Gear Score", highGSName + " (" + Math.round(highGS) + ")", true)
-            .addField("Total Node Wars", totalWars, true)
-            .addField("Win Percentage", Math.round(((totalWins/totalWars)*100)) + "%", true)
-            .addField("Average Turnout", Math.round(averageAttendance), true)
-            .addField("Node Income", nodeIncomeSh, true)
-            .addField("Sea Income", totalLootSh, true)
-            .addField("Total Income", totalIncomeSh, true)
-            .setFooter("BDO botNET is developed and maintained by Windalgo#5426")
-
-          message.channel.send({embed});
         }
+        //No Node War data found
         else{
-          message.channel.send(lang.checkError[5]);
+          var nodeIncome = 0;
+          var nodeIncomeSh = 0;
+          var totalIncome = totalLoot;
+          var totalIncomeSh = totalIncome
+          if(totalIncome > 1000000){
+            totalIncomeSh = ((totalIncome/1000000).toFixed(3) + "m");
+          }
+          //billion
+          if(totalIncome > 1000000000){
+            totalIncomeSh = ((totalIncome/1000000000).toFixed(3) + "b");
+          }
         }
+        //Create and send embed
+        embed = new Discord.RichEmbed()
+          .setAuthor("BDO botNET", "https://i.imgur.com/UmhMghb.png")
+          .setTitle("Viewing information for " + guilds[message.guild.id].guildName)
+          .setDescription(fullOnlineList.length + " of " + fullGuildList.length + " members are online")
+          .setColor(0x00247d)
+          .addField("Average Gear Score", Math.round(averageGS), true)
+          .addField("Online Gear Score", Math.round(onlineGS), true)
+          .addField("Highest Gear Score", highGSName + " (" + Math.round(highGS) + ")", true)
+          .addField("Total Node Wars", totalWars, true)
+          .addField("Win Percentage", Math.round(((totalWins/totalWars)*100)) + "%", true)
+          .addField("Average Turnout", Math.round(averageAttendance), true)
+          .addField("Node Income", nodeIncomeSh, true)
+          .addField("Sea Income", totalLootSh, true)
+          .addField("Total Income", totalIncomeSh, true)
+          .setFooter("BDO botNET is developed and maintained by Windalgo#5426")
+
+        message.channel.send({embed});
       });
+    }
+    else{
+      message.channel.send(lang.checkError[5])
     }
   });
 }
