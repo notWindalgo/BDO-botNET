@@ -5,6 +5,7 @@ Black Desert Online Node.js Efficiency Tool
 
 A simple-to-use Discord bot designed with the goal of eliminating Google Sheets from guild management. Automatically take attendance, record sea monster hauls, and generate payout lists without any input required. Also features the ability to generate stat cards, search the market place, calculate enchant rates, and set marketplace alerts for multiple items per user.
 
+
 ## Setup
 [Setup Guide](./SETUP.md)
 
